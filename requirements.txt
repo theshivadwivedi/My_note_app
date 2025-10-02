@@ -20,10 +20,11 @@ python-dotenv==1.1.1
 
 # Auth
 authlib==1.6.5
+httpx==0.26.2           # required by authlib
 python-jose[cryptography]==3.5.0
 passlib==1.7.4
 bcrypt==4.2.0
-itsdangerous==2.1.2  # required by SessionMiddleware
+itsdangerous==2.1.2     # required by SessionMiddleware
 
 # Templates
 jinja2==3.1.6
